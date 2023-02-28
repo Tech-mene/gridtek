@@ -1,1 +1,77 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Token Listing Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#listing">Token Listing</a>
+            <a href="#newsletter">Newsletter</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="container">
+            <h1>Welcome to Token Listing!</h1>
+            <p>Find the latest tokens and NFTs on our platform.</p>
+            <a href="#listing" class="button">View Listings</a>
+        </div>
+    </section>
+    
+    <section id="listing">
+        <div class="container">
+            <h2>Token Listing</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Symbol</th>
+                        <th>Price</th>
+                        <th>Image</th>
+                        <th>NFT?</th>
+                    </tr>
+                </thead>
+                <tbody id="listingTable">
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
+    <section id="newsletter">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form>
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a platform for buying and selling tokens and NFTs. Our mission is to make it easy and accessible for everyone to participate in the world of crypto.</p>
+        </div>
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
